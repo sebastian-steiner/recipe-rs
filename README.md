@@ -11,3 +11,9 @@ This web server allows federated access to a database in which recipes and the t
 - I never really found myself using the filtering options on existing sites/apps, but I wish for recipe tipps based on the ingredients I have on hand. If I spend the time to manually enter all the provided ingredients and correct the amount of servings, I can more precicely filter based on these parameters.
 
 - Maybe you don't want your recipes out in the wild for everyone to see. Since *recipe-rs* is self-hosted, you and you alone are in charge of who gets to see, edit or create new recipes.
+
+## Webpage
+The first basic way to access all recipes and other data. The idea is that anybody can access all recipes, unless specified on the configuration level, while only logged in users can create new recipes to avoid spam.
+
+## Mobile app
+I would like a mobile app to access most functionality when offline, and do everything the web site can when online. This will probably be implemented as a native Android app, as that is what I need the most, but I am toying with the idea of trying out Progressive Web Apps, which would then also support iOS without me needing an iPhone.
